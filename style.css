@@ -1,3 +1,4 @@
+@-moz-document domain("github.com") {
 /*
     (c) 2012-2016 GitHub
 
@@ -6,7 +7,6 @@
     Code License: MIT (http://choosealicense.com/licenses/mit/)
     Applies to all other files
 */
-@namespace url(http://www.w3.org/1999/xhtml);
 
 /*
     github-notification-bouncing
@@ -298,4 +298,5 @@ div.select-menu.right.js-menu-container.js-select-menu.js-period-container {
 .state-open,
 .bar-section-positive {
     background-color: #43A047 !important;
+}
 }
