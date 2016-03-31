@@ -7,27 +7,24 @@
     Code License: MIT (http://choosealicense.com/licenses/mit/)
     Applies to all other files
 */
-
 /*
     github-notification-bouncing
     https://github.com/muchweb/github-notification-bouncing
 */
+
 @keyframes bounce {
     to {
         transform: scale(1.4);
         opacity: 1;
     }
 }
-
 @keyframes shrink {
-    0%,
-    50% {
+    0%, 50% {
         width: 14px;
         height: 14px;
         box-shadow: 0 0 8px transparent;
     }
 }
-
 .mail-status.unread {
     animation: bounce .5s ease-out infinite alternate, shrink 60s linear;
     width: 24px;
@@ -36,11 +33,11 @@
     transform: scale(1);
     box-shadow: 0 0 8px #4183C4;
 }
-
 /*
     GitHub issue link inline titles
     https://userstyles.org/styles/106817/github-issue-link-inline-titles
 */
+
 .issue-link[title]:after {
     content: attr(title);
     font-size: 0.8em;
@@ -53,12 +50,10 @@
     position: relative;
     top: -1px;
 }
-
 .header {
     padding-top: 15px;
     padding-bottom: 15px;
 }
-
 .header,
 .blankslate,
 .header-logged-in,
@@ -92,15 +87,12 @@
 .boxed-group {
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2) !important;
 }
-
 .header-nav-link {
     margin-top: 5px;
 }
-
 .header-logo-invertocat {
     margin-top: 3px;
 }
-
 .site-search,
 #your-repos-filter,
 .input-block,
@@ -127,7 +119,6 @@
 #q {
     font-size: 14px;
     border-color: transparent !important;
-    height: 35px !important;
     box-shadow: 0 1px 2px rgba(0, 0, 0, .06), 0 1px 1px rgba(0, 0, 0, .12) !important;
     -webkit-transition: box-shadow .2s !important;
     transition: box-shadow .2s !important;
@@ -135,44 +126,66 @@
     box-sizing: border-box !important;
     background: white;
 }
-
 #rename_field {
     line-height: 8px !important;
 }
-
 .form-control {
-    border-radius: 0;
-    border: 0;
-    min-height: 0;
-    height: 32px !important;
-    padding: 10px 8px;
-    box-shadow: none;
+    padding: 5px 8px;
     margin: 1px;
 }
-
+.form-control > input {
+    border-color: transparent!important;
+    line-height: 40px!important;
+    height: 40px!important;
+    box-shadow: 0 1px 1.5px rgba(0, 0, 0, .06), 0 1px 1px rgba(0, 0, 0, .12)!important;
+    -webkit-transition: box-shadow .2s!important;
+    transition: box-shadow .2s!important;
+    border-radius: 2px!important;
+    box-sizing: border-box!important;
+    background: #fff!important;
+    padding: 5px;
+}
+.form-control,
+.form-select {
+    border: 0;
+    height: 40px!important;
+}
+.header-search-wrapper {
+    display: inline;
+}
+.form-control.focus,
+.form-control:focus,
+.form-select.focus,
+.form-select:focus {
+    border: 0;
+    outline: none;
+    box-shadow: none;
+}
+.form-control {
+    padding: 0;
+    margin: 0;
+}
 .site-search .chromeless-input {
     width: 260px;
     height: 30px !important;
     min-height: 0;
 }
-
 .site-search .scope-badge {
     margin-left: 1px;
     padding: 0 5px;
     line-height: 26px;
     vertical-align: initial;
 }
-
 .subnav-search-input,
 .input-contrast,
 .auto-search-input,
-.js-repo-filter-field, .js-autosearch-field,
+.js-repo-filter-field,
+.js-autosearch-field,
 .site-search form {
     width: 360px;
     padding-right: 2px;
     margin-right: 0;
 }
-
 .form-control.focus,
 .form-control:focus,
 input[type="text"].focus,
@@ -195,7 +208,6 @@ textarea:focus {
     border-color: #fff;
     box-shadow: none;
 }
-
 .btn,
 .subnav-item,
 .state,
@@ -208,41 +220,32 @@ textarea:focus {
     cursor: pointer;
     display: inline-block;
 }
-
-input.btn{
+input.btn {
     padding: 6px 8px;
 }
-
 .btn-primary,
 .btn-primary:hover {
     background-image: linear-gradient(#66BB6A, #4CAF50);
 }
-
 .profilecols .filter-bar {
     padding: 15px 8px 15px;
 }
-
 .tabnav {
     padding-bottom: 0;
     margin-bottom: 0;
 }
-
 body.page-profile .tab-content {
     padding-bottom: 15px;
 }
-
 .repo-list-item {
     padding: 30px 20px 30px 20px;
 }
-
 .activity-tab {
     padding-top: 15px;
 }
-
 .pagehead {
     padding-bottom: 0;
 }
-
 .tabnav-tab,
 .pagehead-tabs-item,
 .reponav-item,
@@ -251,12 +254,10 @@ body.page-profile .tab-content {
     height: 54px;
     text-transform: uppercase;
 }
-
 .tabnav-tabs,
 .pagehead-tabs {
     margin-bottom: 0;
 }
-
 .tabnav-tab.selected,
 .pagehead-tabs-item.selected,
 a.repo-filter.text-small.text-muted.js-repo-filter-tab.filter-selected,
@@ -270,31 +271,25 @@ a.repo-filter.text-small.text-muted.js-repo-filter-tab.filter-selected,
     color: #4285f4;
     margin: 2px 4px 0;
 }
-
 .activity-listing.contribution-activity.js-contribution-activity {
     padding: 15px;
     border-radius: 4px;
 }
-
 div.select-menu.right.js-menu-container.js-select-menu.js-period-container {
     padding-top: 25px;
 }
-
 .state {
     text-transform: uppercase;
     padding: 3px;
 }
-
 .state-closed,
 .bar-section-negative {
     background-color: #E53935 !important;
 }
-
 .state-merged,
 .bar-section-alt {
     background-color: #7B1FA2 !important;
 }
-
 .state-open,
 .bar-section-positive {
     background-color: #43A047 !important;
