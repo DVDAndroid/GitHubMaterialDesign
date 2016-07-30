@@ -150,9 +150,6 @@
     border: 0;
     height: 40px!important;
 }
-.header-search-wrapper {
-    display: inline;
-}
 .form-control.focus,
 .form-control:focus,
 .form-select.focus,
