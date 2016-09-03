@@ -205,6 +205,9 @@ textarea:focus {
     border-color: #fff;
     box-shadow: none;
 }
+#js-issues-search {
+	padding-left: 30px;	
+}
 .btn,
 .subnav-item,
 .state,
