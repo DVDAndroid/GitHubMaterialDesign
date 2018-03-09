@@ -146,6 +146,7 @@
     padding: 5px;
 }
 .form-control,
+:not(.CodeMirror.cm-s-github-light),
 .form-select {
     border: 0;
     height: 40px!important;
