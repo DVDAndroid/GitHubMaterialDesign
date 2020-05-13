@@ -400,11 +400,12 @@ div.select-menu.right.js-menu-container.js-select-menu.js-period-container {
 	border: none !important;
 	border-color: unset !important;
 	border-radius: 4px;
-	box-shadow: 0 0 18px rgba(0,0,0,.4) !important;
+	box-shadow: 0 0 18px rgba(0, 0, 0, .4) !important;
 }
 
 /* PR Button fix - No ripple, unfortunately */
-.js-mrege-method-menu-button::after, .select-menu-button::after {
+.js-mrege-method-menu-button::after,
+.select-menu-button::after {
 	transform: unset !important;
 	opacity: unset !important;
 	top: unset;
@@ -416,12 +417,46 @@ div.select-menu.right.js-menu-container.js-select-menu.js-period-container {
 }
 
 /* Fix shadow on some elements */
-.hx_reponav a.reponav-item, .dropdown-item {
+.hx_reponav a.reponav-item,
+.dropdown-item {
 	box-shadow: unset !important;
 }
 
 .dropdown-item {
 	text-align: unset;
 	display: block;
+}
+
+/* Fix for dialogs shadow */
+summary.btn.btn-danger.boxed-action {
+	transform: unset;
+}
+
+/* INPUTS */
+.form-control {
+	border-color: revert !important;
+}
+
+.form-group > label {
+	top: 31px;
+	left: 15px;
+	position: relative;
+	padding: 0px 5px 0px 5px;
+	font-size: 1.1em;
+	transition: 0.2s;
+	pointer-events: none;
+}
+
+.form-group.label-animate > label {
+	background-color: white;
+	top: 12px !important;
+	left: 16px !important;
+	font-size: 0.9em;
+}
+
+.form-control:focus {
+	background-color: unset !important;
+	border: revert;
+	border-color: #2c3e50 !important;
 }
 }
