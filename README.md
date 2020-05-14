@@ -11,4 +11,4 @@ Current extra features:
 - New fancy inputs
 
 # Credits
-Thanks to: [github-notification-bouncing](https://github.com/muchweb/github-notification-bouncing), [GitHub issue link inline titles](https://userstyles.org/styles/106817/github-issue-link-inline-titles) and [Ripple effect](https://github.com/Kvaibhav01/Ripple-without-JS)
+Thanks to: [github-notification-bouncing](https://github.com/muchweb/github-notification-bouncing), [GitHub issue link inline titles](https://userstyles.org/styles/106817/github-issue-link-inline-titles), [Ripple effect](https://github.com/Kvaibhav01/Ripple-without-JS), [Bootstrap 4 Inputs](http://jsfiddle.net/sedvo037/) and [Maicol Battistini (maicol07)](https://maicol07.it)
