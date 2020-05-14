@@ -234,7 +234,6 @@ textarea:focus {
 
 .header-search-input {
 	color: black !important;
-	width: 88%;
 }
 
 #js-issues-search {
@@ -416,6 +415,11 @@ div.select-menu.right.js-menu-container.js-select-menu.js-period-container {
 	position: relative;
 }
 
+/* PR Selects fix */
+.select-menu-list div label.select-menu-item {
+	display: block;
+}
+
 /* Fix shadow on some elements */
 .hx_reponav a.reponav-item,
 .dropdown-item {
@@ -432,12 +436,12 @@ summary.btn.btn-danger.boxed-action {
 	transform: unset;
 }
 
-/* INPUTS */
-.form-control {
+/* Extra Inputs */
+.form_control {
 	border-color: revert !important;
 }
 
-.form-group > label {
+.form_group > label {
 	top: 31px;
 	left: 15px;
 	position: relative;
@@ -447,16 +451,28 @@ summary.btn.btn-danger.boxed-action {
 	pointer-events: none;
 }
 
-.form-group.label-animate > label {
+.form_group.label-animate > label {
 	background-color: white;
 	top: 12px !important;
 	left: 16px !important;
 	font-size: 0.9em;
 }
 
-.form-control:focus {
+.form_control:focus {
 	background-color: unset !important;
 	border: revert;
 	border-color: #2c3e50 !important;
+}
+
+/* Fix header search bar */
+input.input-sm.header-search-input {
+	background: none !important;
+	height: initial !important;
+	line-height: unset !important;
+}
+
+input.input-sm.header-search-input:focus {
+	background-color: #fafbfc !important;
+	border: none;
 }
 }
