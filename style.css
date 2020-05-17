@@ -416,7 +416,7 @@ div.select-menu.right.js-menu-container.js-select-menu.js-period-container {
 }
 
 /* PR Selects fix */
-.select-menu-list div label.select-menu-item {
+.select-menu-list .select-menu-item {
 	display: block;
 }
 
