@@ -256,7 +256,6 @@ textarea:focus {
 	letter-spacing: 0;
 	transition: .2s ease-in;
 	cursor: pointer;
-	display: inline-block;
 	position: relative;
 	overflow: hidden;
 	transform: translate3d(0, 0, 0);
