@@ -1,8 +1,14 @@
-# GitHubMaterialDesign
+# GitHub Material Design
 GitHub in Material Design
 
-# Install
-Install it with [Stylish](https://userstyles.org/) from this [link](https://userstyles.org/styles/123952/github-material-design)
+# Installation
+Install it with [Stylish](https://userstyles.org/) or [Stylus](https://add0n.com/stylus.html) from this [link](https://userstyles.org/styles/123952/github-material-design)
+
+# Extra
+To enable extra you need to install the [TamperMonkey](https://www.tampermonkey.net/) extension for your browser and download the script from the repo: open the githubmd.user.js file and click the raw button. Click the install button
+
+Current extra features:
+- New fancy inputs
 
 # Credits
-Thanks to: [github-notification-bouncing](https://github.com/muchweb/github-notification-bouncing) , [GitHub issue link inline titles](https://userstyles.org/styles/106817/github-issue-link-inline-titles)
+Thanks to: [github-notification-bouncing](https://github.com/muchweb/github-notification-bouncing), [GitHub issue link inline titles](https://userstyles.org/styles/106817/github-issue-link-inline-titles), [Ripple effect](https://github.com/Kvaibhav01/Ripple-without-JS), [Bootstrap 4 Inputs](http://jsfiddle.net/sedvo037/) and [Maicol Battistini (maicol07)](https://maicol07.it)
